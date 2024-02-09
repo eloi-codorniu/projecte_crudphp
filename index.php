@@ -1,0 +1,9 @@
+<?php
+include('connexio_woo.php');
+include('header.php');
+include('hero.php');
+include('about.php');
+include('productes.php');
+include('serveis.php');
+include('footer.php');
+?>;
