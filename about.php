@@ -11,8 +11,14 @@
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
 
             <div class="section-title">
-              <h2>About Us</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
+              <h2>Sobre nosaltres</h2>
+              <p>Bienvenidos a nuestra tienda de tecnología en línea, especializada en la venta de ordenadores y material informático. 
+                En nuestro espacio virtual, nos dedicamos apasionadamente a ofrecer a nuestros clientes una amplia gama de productos de alta calidad,
+                desde potentes ordenadores de última generación hasta periféricos y accesorios que potenciarán su experiencia informática. 
+                Con la comodidad de realizar sus compras a través de la plataforma WooCommerce, nos esforzamos por brindar un servicio eficiente 
+                y una navegación intuitiva para que su experiencia de compra sea tan fluida como usar nuestros productos. Nuestro compromiso con la calidad, 
+                la innovación y la satisfacción del cliente nos impulsa a mantenernos actualizados con las últimas tendencias tecnológicas, 
+                asegurando que nuestros clientes encuentren siempre lo mejor en el mundo de la informática. ¡Bienvenidos a un universo digital donde la tecnología se encuentra al alcance de un clic!</p>
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
