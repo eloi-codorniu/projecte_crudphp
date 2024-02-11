@@ -40,7 +40,7 @@
   <div class="container d-flex align-items-center">
 
     <div class="logo me-auto">
-      <h1><a href="index.php">Mamba</a></h1>
+      <h1><a href="index.php">Pc's Penedès</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
     </div>
