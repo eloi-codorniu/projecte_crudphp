@@ -11,9 +11,9 @@
           <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-1.jpg');">
             <div class="carousel-container">
               <div class="carousel-content container">
-                <h2 class="animate__animated animate__fadeInDown">Benvinguts a <span>la vostra botiga virtual d'informatica</span></h2>
-                <p class="animate__animated animate__fadeInUp">els millors productes al millor preu del mercat</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Llegeix més</a>
+                <h2 class="animate__animated animate__fadeInDown">Benvinguts a <span>la vostra <br>botiga virtual d'informatica</span></h2>
+                <p class="animate__animated animate__fadeInUp">Els millors productes al millor preu del mercat</p>
+                <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Llegeix més</a> -->
               </div>
             </div>
           </div>
@@ -23,8 +23,8 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Novetats</h2>
-                <p class="animate__animated animate__fadeInUp">Amb nosaltres seràs el primer a assabentar-se de totes les novetats del món tecnològic</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Llegeix més</a>
+                <p class="animate__animated animate__fadeInUp">Amb nosaltres seràs el primer a assabentar-se<br>de totes les novetats del món tecnològic</p>
+                <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Llegeix més</a> -->
               </div>
             </div>
           </div>
@@ -34,8 +34,8 @@
             <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Ofertes</h2>
-                <p class="animate__animated animate__fadeInUp">les millors ofertes del mercat en una gran selecció de productes de gran qualitat</p>
-                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Llegeix més</a>
+                <p class="animate__animated animate__fadeInUp">Les millors ofertes del mercat en una gran <br>selecció de productes de gran qualitat</p>
+                <!-- <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Llegeix més</a> -->
               </div>
             </div>
           </div>
