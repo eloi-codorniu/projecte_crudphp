@@ -12,29 +12,26 @@
       <div class="col-lg-12">
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">Tot</li>
-
           <?php
           $categories = $woocommerce->get('products/categories');
           foreach ($categories as $category) {
             echo '<li data-filter=".' . strtolower($category->slug) . '" class="filter-app">' . $category->name . '</li>';
           }
           ?>
-          
         </ul>
       </div>
     </div>
 
     <div class="row" id="portfolio-items">
       <?php
-      if (isset($_GET['category'])) {
-        $category_slug = $_GET['category'];
-        $products = $woocommerce->get('products', ['category' => $category_slug]);
-      } else {
-        $products = $woocommerce->get('products');
-      }
+      $all_products = $woocommerce->get('products');
 
-      foreach ($products as $product) {
-        echo '<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">';
+      foreach ($all_products as $product) {
+        echo '<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item';
+        foreach ($product->categories as $category) {
+          echo ' ' . strtolower($category->slug);
+        }
+        echo '">';
         echo '<div class="portfolio-wrap">';
         echo '<img src="' . $product->images[0]->src . '" class="img-fluid" alt="' . $product->name . '">';
         echo '<div class="portfolio-info">';
@@ -54,7 +51,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const filters = document.querySelectorAll("#portfolio-flters li");
+    const filters = document.querySelectorAll("#portfolio-flters li.filter-app");
     const portfolioItems = document.querySelectorAll("#portfolio-items .portfolio-item");
 
     filters.forEach(function(filter) {
@@ -63,10 +60,18 @@
 
         portfolioItems.forEach(function(item) {
           item.style.display = "none";
-          if (item.classList.contains(selectedFilter) || selectedFilter === "*") {
-            item.style.display = "block";
-          }
         });
+
+        if (selectedFilter === "*") {
+          portfolioItems.forEach(function(item) {
+            item.style.display = "block";
+          });
+        } else {
+          const selectedItems = document.querySelectorAll("#portfolio-items .portfolio-item" + selectedFilter);
+          selectedItems.forEach(function(item) {
+            item.style.display = "block";
+          });
+        }
 
         filters.forEach(function(filter) {
           filter.classList.remove("filter-active");
