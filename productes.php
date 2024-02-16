@@ -1,3 +1,6 @@
+<!-- Portfolio Section -->
+
+
 <?php include('connexio_woo.php'); ?>
 
 <section id="portfolio" class="portfolio section-bg">
