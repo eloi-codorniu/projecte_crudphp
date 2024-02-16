@@ -9,7 +9,7 @@
           </div>
 
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
-
+ 
             <div class="section-title">
               <h2>Sobre nosaltres </h2>
               <p>Bienvenidos a nuestra tienda de tecnología en línea, especializada en la venta de ordenadores y material informático. 
