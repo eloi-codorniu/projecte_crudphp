@@ -1,7 +1,5 @@
 <?php include('connexio_woo.php'); ?>
 
-<?php include('connexio_woo2.php'); ?>
-
 <?php include('header.php'); ?>
 
 <?php include('hero.php'); ?>
