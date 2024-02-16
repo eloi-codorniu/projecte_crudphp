@@ -67,21 +67,7 @@
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-    </div>
-  </div>
-</section><!-- End Our Portfolio Section -->
-
-<!-- <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const filters = document.querySelectorAll("#portfolio-flters li.filter-app");
-    const portfolioItems = document.querySelectorAll("#portfolio-items .portfolio-item");
-
-    filters.forEach(function(filter) {
-      filter.addEventListener("click", function() {
+                  Cardilter.addEventListener("click", function() {
         const selectedFilter = this.getAttribute("data-filter");
 
         portfolioItems.forEach(function(item) {
