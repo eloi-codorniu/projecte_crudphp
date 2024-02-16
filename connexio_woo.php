@@ -29,7 +29,9 @@ $woocommerce = new Client(
         'query_string_auth' => true,
         'timeout' => 400
     ]
-);
-
+);      
 //print_r($woocommerce->get('products'));
+
+
+//tes
 ?> 
