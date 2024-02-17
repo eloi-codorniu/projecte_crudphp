@@ -9,9 +9,9 @@
           </div>
 
           <div class="col-lg-6 d-flex flex-column justify-content-center about-content">
-
+ 
             <div class="section-title">
-              <h2>Sobre nosaltres</h2>
+              <h2>Sobre nosaltres </h2>
               <p>Bienvenidos a nuestra tienda de tecnología en línea, especializada en la venta de ordenadores y material informático. 
                 En nuestro espacio virtual, nos dedicamos apasionadamente a ofrecer a nuestros clientes una amplia gama de productos de alta calidad,
                 desde potentes ordenadores de última generación hasta periféricos y accesorios que potenciarán su experiencia informática. 

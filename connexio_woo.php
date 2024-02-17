@@ -22,7 +22,10 @@ $url_wordpress="http://192.168.56.11/wordpress";
 $url_wordpress_rest=$url_wordpress.'/index.php';
 $woocommerce = new Client(
     $url_wordpress_rest,
+<<<<<<< HEAD
     
+=======
+>>>>>>> 98b51d2cae446a178da0fb705fbf5f2f13b74a87
     //'ck_d165f7d66777c0ad032a1060d9d60700e1684248',
     //'cs_62977f26b1845ddfe1c9f444b829d5df09a2552f',
     //'ck_d4d7238c92694b30472243286fd9a2975275769d',
@@ -34,7 +37,9 @@ $woocommerce = new Client(
         'query_string_auth' => true,
         'timeout' => 400
     ]
-);
-
+);      
 //print_r($woocommerce->get('products'));
-?>
+
+
+
+?> 

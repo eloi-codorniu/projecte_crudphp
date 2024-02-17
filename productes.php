@@ -12,29 +12,24 @@
       <div class="col-lg-12">
         <ul id="portfolio-flters">
           <li data-filter="*" class="filter-active">Tot</li>
-
+          <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-web">WEB</li>
           <?php
           $categories = $woocommerce->get('products/categories');
           foreach ($categories as $category) {
-            echo '<li data-filter=".' . strtolower($category->slug) . '" class="filter-app">' . $category->name . '</li>';
+            echo '<li data-filter=".filter-' . strtolower($category->slug) . '" >' . $category->name . '</li>';
           }
           ?>
-          
         </ul>
       </div>
     </div>
 
     <div class="row" id="portfolio-items">
       <?php
-      if (isset($_GET['category'])) {
-        $category_slug = $_GET['category'];
-        $products = $woocommerce->get('products', ['category' => $category_slug]);
-      } else {
-        $products = $woocommerce->get('products');
-      }
+      $all_products = $woocommerce->get('products');
 
-      foreach ($products as $product) {
-        echo '<div class="col-lg-3 col-md-4 col-sm-6 portfolio-item">';
+      foreach ($all_products as $product) {
+        echo '<div class="col-lg-4 col-md-6 portfolio-item filter-'.strtolower($category->slug).'">';
         echo '<div class="portfolio-wrap">';
         echo '<img src="' . $product->images[0]->src . '" class="img-fluid" alt="' . $product->name . '">';
         echo '<div class="portfolio-info">';
@@ -48,25 +43,47 @@
         echo '</div>';
       }
       ?>
-    </div>
-  </div>
-</section><!-- End Our Portfolio Section -->
 
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const filters = document.querySelectorAll("#portfolio-flters li");
-    const portfolioItems = document.querySelectorAll("#portfolio-items .portfolio-item");
+<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-    filters.forEach(function(filter) {
-      filter.addEventListener("click", function() {
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bi bi-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bi bi-link"></i></a>
+                  Cardilter.addEventListener("click", function() {
         const selectedFilter = this.getAttribute("data-filter");
 
         portfolioItems.forEach(function(item) {
           item.style.display = "none";
-          if (item.classList.contains(selectedFilter) || selectedFilter === "*") {
-            item.style.display = "block";
-          }
         });
+
+        if (selectedFilter === "*") {
+          portfolioItems.forEach(function(item) {
+            item.style.display = "block";
+          });
+        } else {
+          const selectedItems = document.querySelectorAll("#portfolio-items .portfolio-item" + selectedFilter);
+          selectedItems.forEach(function(item) {
+            item.style.display = "block";
+          });
+        }
 
         filters.forEach(function(filter) {
           filter.classList.remove("filter-active");
@@ -75,4 +92,4 @@
       });
     });
   });
-</script>
+</script> -->
