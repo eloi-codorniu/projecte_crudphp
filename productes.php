@@ -4,8 +4,8 @@
   <div class="container" data-aos="fade-up" data-aos-delay="100">
 
     <div class="section-title">
-      <h2>Our Portfolio</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <h2>Productes</h2>
+      <p>Aquí tens una llista de productes que tenim classificats per categories.</p>
     </div>
 
     <div class="row">
