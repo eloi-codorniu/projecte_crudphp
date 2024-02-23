@@ -7,7 +7,6 @@
     <div class="row">
 
       <?php
-      // Obtener el número total de productos
       $total_products = count($woocommerce->get('products'));
 
       // Obtener el número de productos en cada categoría
@@ -16,11 +15,14 @@
       $num_rams = 0;
       $num_graphics_cards = 0;
 
+
+      
+
+      
       foreach ($categories as $category) {
         switch ($category->name) {
           case 'Processadors':
-            $num_processors = count($woocommerce->get('products', ['category' => $category->slug]));
-            break;
+            $num_processors = count($woocommerce->get('products', ['category' => $category->slug]));            break;
           case 'Ram':
             $num_rams = count($woocommerce->get('products', ['category' => $category->slug]));
             break;
@@ -32,6 +34,8 @@
         }
       }
       ?>
+
+
 
       <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
         <div class="count-box">
@@ -86,12 +90,12 @@
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-chat-left-dots"></i></div>
             <h4 class="title"><a href="servei_actualitzar.php">Actualitzar</a></h4>
-            <p class="description">A traves d'aquesta opció podem actualitzar nostres productes.</p>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-bounding-box"></i></div>
             <h4 class="title"><a href="servei_esborrar.php">Esborrar</a></h4>
-            <p class="description">En aquesta secció tenim la posibilitat de esborrar qualsevol producte que no ens interesi.</p>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-globe"></i></div>
