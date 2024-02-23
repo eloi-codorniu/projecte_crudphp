@@ -85,12 +85,12 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
             <div class="icon"><i class="bi bi-chat-left-dots"></i></div>
-            <h4 class="title"><a href="">Actualitzar</a></h4>
+            <h4 class="title"><a href="servei_actualitzar.php">Actualitzar</a></h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-bounding-box"></i></div>
-            <h4 class="title"><a href="">Esborrar</a></h4>
+            <h4 class="title"><a href="servei_esborrar.php">Esborrar</a></h4>
             <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">

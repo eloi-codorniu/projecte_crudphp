@@ -4,8 +4,8 @@
   <div class="container" data-aos="fade-up" data-aos-delay="100">
 
     <div class="section-title">
-      <h2>Our Portfolio</h2>
-      <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      <h2>Nostres Productes</h2>
+      <p>Disponim d'una amplia gama de productes relacionats amb el món d'informatica i la última tecnologia amb els mellore preus del mercat.</p>
     </div>
 
     <div class="row">
