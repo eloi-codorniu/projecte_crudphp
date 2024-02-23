@@ -68,7 +68,7 @@
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-bounding-box"></i></div>
-            <h4 class="title"><a href="servei-esborrar.php">Esborrar</a></h4>
+            <h4 class="title"><a href="servei_esborrar.php">Esborrar</a></h4>
             <p class="description">Aquesta opció ens da la posibilitat d'esborrar productes.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
