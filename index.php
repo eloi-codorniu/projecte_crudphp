@@ -1,4 +1,4 @@
-<?php include('connexio_woo.php'); ?>
+<?php include('connexio_woo.php'); ?> 
 
 <?php include('header.php'); ?>
 

@@ -1,4 +1,4 @@
-<!-- ======= Hero Section ======= -->
+<!-- ======= Hero Section ======= --> 
 <section id="hero">
     <div class="hero-container">
       <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
