@@ -1,3 +1,4 @@
+
 <?php include('connexio_woo.php');
 
       $id_Producte = $_POST['id'];
