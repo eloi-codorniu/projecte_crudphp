@@ -1,4 +1,4 @@
-<?php include('connexio_woo.php'); ?>
+<?php include('connexio_woo.php'); ?> 
 
 <section id="portfolio" class="portfolio section-bg">
   <div class="container" data-aos="fade-up" data-aos-delay="100">
