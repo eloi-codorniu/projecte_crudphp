@@ -1,3 +1,4 @@
+<?php include('header.php'); ?>
 <?php
 include('connexio_woo.php');
 
@@ -16,3 +17,4 @@ foreach ($woocommerce->get('products') as $producte) {
     echo '</form>';
 }
 ?>
+<?php include('footer.php'); ?>
