@@ -5,7 +5,9 @@
 
     <div class="section-title">
       <h2>Nostres Productes</h2>
-      <p>Disponim d'una amplia gama de productes relacionats amb el món d'informatica i la última tecnologia amb els mellore preus del mercat.</p>
+      <p>En la nostra botiga disposem d'una amplia gama de
+         productes relacionats<br> amb el món d'informatica i la
+         última tecnologia amb els mellors preus del mercat.</p>
     </div>
 
     <div class="row">
