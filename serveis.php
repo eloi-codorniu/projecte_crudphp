@@ -7,31 +7,29 @@
     <div class="row">
 
       <?php
-      // Obtener el número total de productos
       $total_products = count($woocommerce->get('products'));
 
       // Obtener el número de productos en cada categoría
-      $categories = $woocommerce->get('products/categories');
+      $categories = $woocommerce->get('products/categories'->name);
+
+      
       $num_processors = 0;
       $num_rams = 0;
       $num_graphics_cards = 0;
 
-      foreach ($categories as $category) {
-        switch ($category->name) {
-          case 'Processadors':
-            $num_processors = count($woocommerce->get('products', ['category' => $category->slug]));
-            break;
-          case 'Ram':
-            $num_rams = count($woocommerce->get('products', ['category' => $category->slug]));
-            break;
-          case 'Gràfiques':
-            $num_graphics_cards = count($woocommerce->get('products', ['category' => $category->slug]));
-            break;
-          default:
-            break;
+
+      foreach ($categories as $categoria){
+        if($categoria->id=='65'){
+          $num_processors++;
         }
       }
+      
+
+      
+     
       ?>
+
+
 
       <div class="col-lg-3 col-md-6 text-center" data-aos="fade-up">
         <div class="count-box">
