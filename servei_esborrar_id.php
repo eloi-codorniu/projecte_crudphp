@@ -7,7 +7,7 @@ $woocommerce->delete('products/' . $id_Producte);
 
 
 
-header("refresh:2; url=index.php");
+header("refresh:0; url=index.php");
 exit();
 
 ?>
