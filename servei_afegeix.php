@@ -21,15 +21,15 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
-    $nombre_producto = $_POST['nom'];
-    $precio_producto = $_POST['preu'];
-    $descripcion_producto = $_POST['descripcio'];
+    $nom_producte = $_POST['nom'];
+    $preu_producte = $_POST['preu'];
+    $descripcio_producte = $_POST['descripcio'];
 
 
     $data = [
-        'name' => $nombre_producto,
-        'regular_price' => $precio_producto,
-        'description' => $descripcion_producto,
+        'name' => $nom_producte,
+        'regular_price' => $preu_producte,
+        'description' => $descripcio_producte,
     ];
     $woocommerce->post('products', $data);
 }
@@ -37,7 +37,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-//print_r($woocommerce->post('products', $data));
 ?>
 
 
