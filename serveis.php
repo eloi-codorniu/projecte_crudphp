@@ -74,7 +74,7 @@
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-globe"></i></div>
             <h4 class="title"><a href="servei_afegeix.php">Afegir</a></h4>
-            <p class="description">Desde aqui podem actualitzar nostres productes.</p>
+            <p class="description">Desde aqui podem afegir nostres productes.</p>
           </div>
           <!-- <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-broadcast"></i></div>
