@@ -26,8 +26,9 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#hero">Inici</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#about">Sobre Nosaltres</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Serveis</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Productes</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Serveis</a></li>
+              
               <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
             </ul>
           </div>
