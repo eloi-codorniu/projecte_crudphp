@@ -10,7 +10,7 @@ $data = [
     'short_description' => $descripcio,
 ];
 
- $woocommerce->put('products/' . $id_Producte, $data);
+ $woocommerce->delete('products/794', ['force' => true]);
 
 header("refresh:0; url=index.php");
 exit();
