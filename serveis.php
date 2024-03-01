@@ -19,9 +19,6 @@
                 </div>
             </div>
 
-
-
-
             <?php
             $categories = $woocommerce->get('products/categories');
 
@@ -38,12 +35,6 @@
             <?php
             }
             ?>
-
-
-
-
-
-
         </div>
     </div>
 </section><!-- End Counts Section -->

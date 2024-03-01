@@ -10,6 +10,7 @@
          última tecnologia amb els mellors preus del mercat.</p>
     </div>
 
+    <!-- Llistar totes les categories -->
     <div class="row">
       <div class="col-lg-12">
         <ul id="portfolio-flters">
@@ -24,6 +25,7 @@
       </div>
     </div>
 
+    <!-- Mostrar tots els productes -->
     <div class="row" id="portfolio-items">
       <?php
       $all_products = $woocommerce->get('products');
